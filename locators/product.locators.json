@@ -1,0 +1,36 @@
+{
+  "productDetail": {
+    "productName": ".product-information h2",
+    "productPrice": ".product-information span span",
+    "quantityInput": "input#quantity",
+    "addToCartButton": "button:has-text('Add to cart')",
+    "viewCartLink": "u:has-text('View Cart')",
+    "continueShoppingButton": "button:has-text('Continue Shopping')"
+  },
+  "cartPage": {
+    "cartTable": "#cart_info_table",
+    "cartItems": "#product-1",
+    "productNameInCart": ".cart_description h4 a",
+    "productPriceInCart": ".cart_price p",
+    "productQuantityInCart": ".cart_quantity button",
+    "totalPriceInCart": ".cart_total_price",
+    "proceedToCheckoutButton": "a:has-text('Proceed To Checkout')"
+  },
+  "checkoutPage": {
+    "orderComment": "textarea[name='message']",
+    "placeOrderButton": "a:has-text('Place Order')"
+  },
+  "paymentPage": {
+    "nameOnCardInput": "input[data-qa='name-on-card']",
+    "cardNumberInput": "input[data-qa='card-number']",
+    "cvcInput": "input[data-qa='cvc']",
+    "expiryMonthInput": "input[data-qa='expiry-month']",
+    "expiryYearInput": "input[data-qa='expiry-year']",
+    "payAndConfirmButton": "button[data-qa='pay-button']"
+  },
+  "orderSuccess": {
+    "successMessage": "h2[data-qa='order-placed']",
+    "downloadInvoiceButton": "a:has-text('Download Invoice')",
+    "continueButton": "a[data-qa='continue-button']"
+  }
+}

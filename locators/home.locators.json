@@ -1,0 +1,17 @@
+{
+  "navbar": {
+    "signupLoginLink": "a[href='/login']",
+    "cartLink": "a[href='/view_cart']",
+    "loggedInAs": "a:has-text('Logged in as')",
+    "productsLink": "a[href='/products']",
+    "deleteAccount": "a[href='/delete_account']"
+  },
+  "hero": {
+    "slider": "#slider",
+    "mainHeading": ".carousel-inner"
+  },
+  "featuredItems": {
+    "viewProductButtons": "a:has-text('View Product')",
+    "firstProductCard": ".features_items .col-sm-4:first-child"
+  }
+}

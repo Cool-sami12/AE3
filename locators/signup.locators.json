@@ -1,0 +1,33 @@
+{
+  "loginPage": {
+    "newUserHeading": "h2:has-text('New User Signup!')",
+    "nameInput": "input[data-qa='signup-name']",
+    "emailInput": "input[data-qa='signup-email']",
+    "signupButton": "button[data-qa='signup-button']"
+  },
+  "registrationForm": {
+    "titleMr": "#id_gender1",
+    "titleMrs": "#id_gender2",
+    "passwordInput": "input[data-qa='password']",
+    "daySelect": "select[data-qa='days']",
+    "monthSelect": "select[data-qa='months']",
+    "yearSelect": "select[data-qa='years']",
+    "newsletterCheckbox": "#newsletter",
+    "offersCheckbox": "#optin",
+    "firstNameInput": "input[data-qa='first_name']",
+    "lastNameInput": "input[data-qa='last_name']",
+    "companyInput": "input[data-qa='company']",
+    "address1Input": "input[data-qa='address']",
+    "address2Input": "input[data-qa='address2']",
+    "countrySelect": "select[data-qa='country']",
+    "stateInput": "input[data-qa='state']",
+    "cityInput": "input[data-qa='city']",
+    "zipcodeInput": "input[data-qa='zipcode']",
+    "mobileNumberInput": "input[data-qa='mobile_number']",
+    "createAccountButton": "button[data-qa='create-account']"
+  },
+  "successPage": {
+    "accountCreatedHeading": "h2[data-qa='account-created']",
+    "continueButton": "a[data-qa='continue-button']"
+  }
+}

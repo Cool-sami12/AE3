@@ -1,0 +1,15 @@
+{
+  "name": "automation-exercise-playwright",
+  "version": "1.0.0",
+  "description": "Playwright E2E Tests for AutomationExercise.com using POM",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0",
+    "typescript": "^5.4.0"
+  }
+}
