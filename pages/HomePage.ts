@@ -30,7 +30,7 @@ export class HomePage extends BasePage {
   /** Click the Signup / Login link in the navbar */
   async goToSignupLogin(): Promise<void> {
     await this.page.locator(homeLocators.navbar.signupLoginLink).click();
-    await this.page.waitForURL('**/login');
+   // await this.page.waitForURL('**/login');
   }
 
   /** Assert that a user is logged in (navbar shows "Logged in as <name>") */

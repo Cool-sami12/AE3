@@ -55,6 +55,12 @@ test.describe('AutomationExercise – Complete User Journey', () => {
     cartPage     = new CartPage(page);
     checkoutPage = new CheckoutPage(page);
     paymentPage  = new PaymentPage(page);
+    
+    const consentBtn = page.locator('button:has-text("Consent")');
+
+    if (await consentBtn.isVisible()) {
+      await consentBtn.click();
+    }
   });
 
   // ══════════════════════════════════════════════════════════════════════════

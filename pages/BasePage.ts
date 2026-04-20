@@ -9,11 +9,13 @@ export class BasePage {
 
   constructor(page: Page) {
     this.page = page;
+    
   }
 
   /** Navigate to a relative or absolute URL */
   async navigate(path: string = '/'): Promise<void> {
     await this.page.goto("https://automationexercise.com", { waitUntil: 'domcontentloaded' });
+    
   }
 
   /** Wait for a locator to be visible */
